@@ -1,6 +1,7 @@
 
 import * as React from 'react'
 import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
 const pageStyles = {
     color: "#232119",
@@ -17,11 +18,9 @@ const pageStyles = {
 const AboutPage = () => {
 
     return (
-        <main style={pageStyles}>
-            <h1 style={headingStyles}>About Me</h1>
-            <Link to="/">Back to Home</Link>
+        <Layout pageTitle="About Page">
             <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
-        </main>
+      </Layout>
     )
 }
 

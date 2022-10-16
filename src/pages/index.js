@@ -1,6 +1,7 @@
 import * as React from "react"
 //import { Link } from "gatsby"
 import Layout from "../components/layout"
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 const pageStyles = {
@@ -36,20 +37,17 @@ const listItemStyles = {
   maxWidth: 560,
   marginBottom: 30,
 }
-
 const linkStyle = {
   color: "#8954A8",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
 }
-
 const docLinkStyle = {
   ...linkStyle,
   listStyleType: "none",
   marginBottom: 24,
 }
-
 const descriptionStyle = {
   color: "#232129",
   fontSize: 14,
@@ -57,13 +55,11 @@ const descriptionStyle = {
   marginBottom: 0,
   lineHeight: 1.25,
 }
-
 const docLink = {
   text: "Documentation",
   url: "https://www.gatsbyjs.com/docs/",
   color: "#8954A8",
 }
-
 const badgeStyle = {
   color: "#fff",
   backgroundColor: "#088413",
@@ -79,7 +75,6 @@ const badgeStyle = {
   marginLeft: 10,
   lineHeight: 1,
 }
-
 const links = [
   {
     text: "Tutorial",
@@ -125,7 +120,6 @@ const links = [
     color: "#663399",
   },
 ]
-
 const IndexPage = () => {
 //   return (
 //     <main style={pageStyles}>
@@ -176,6 +170,10 @@ const IndexPage = () => {
 return (
   <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
+      <StaticImage
+        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+      />
     </Layout>
 
  /// <main style={pageStyles} >

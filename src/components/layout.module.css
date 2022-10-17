@@ -1,9 +1,25 @@
+@import url("https://use.typekit.net/izl4igd.css");
 
 .container {
   margin: auto;
-  max-width: 500px;
+  margin-top: 12vh;
+  margin-bottom: 15vh;
+  max-width: 60vw;
   font-family: sans-serif;
+  
+ /* background-color: fade( #020201, 50%);*/
+  
+  color: #363537;
+  
 }
+img{
+  border-radius:75%;
+}
+
+.headshot {
+  border-radius: 50%;
+}
+
 .heading {
   color: rebeccapurple;
 }
@@ -18,10 +34,10 @@
 .nav-link-text {
   color: black;
 }
-html {
-  background-color: #F9C48A;
-}
-main 
-{
-   background-color: transparent;
-}
+html{
+   /*background: url(../images/texture.jpg) no-repeat center center fixed;
+    background-size: cover;*/
+    background-color: #C09D2E;
+    }
+      
+

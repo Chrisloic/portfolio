@@ -1,15 +1,19 @@
 import * as React from "react"
 //import { Link } from "gatsby"
 import Layout from "../components/layout"
-import { StaticImage } from 'gatsby-plugin-image'
-
+// import { StaticImage } from 'gatsby-plugin-image'
+//import headshot from "../components/layout.module.css'"
 
 // const pageStyles = {
 //   color: "#232129",
 //   padding: 96,
 //   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 // }
-
+const headshot = {
+  borderRadius: 50 ,
+  maxWidth: "40%" ,
+  marginBottom: 40 ,
+}
 // const headingStyles = {
 //   marginTop: 0,
 //   marginBottom: 64,
@@ -169,11 +173,11 @@ import { StaticImage } from 'gatsby-plugin-image'
 // // )
 const IndexPage = () => {
 return (
-  <Layout pageTitle="Max Kuhn">
-    <img className="headshot" src="https://avatars.githubusercontent.com/u/115730703" alt="Smiling person with glasses, short hair, and a beard wearing a suit and a button-up shirt."/>
-    <p>Hi! I'm Max Kuhn, a developer and designer.</p>
-    <p>I make apps and websites <span aria-hidden="true">💻</span> for people <span aria-hidden="true">👩‍👩‍👦‍👦</span> and particularly intelligent dogs <span aria-hidden="true">🧠🐶</span>.</p>
-    <p>Welcome and/or bark, bark, woof woof.</p>
+  <Layout pageTitle="Chris">
+    <img style={headshot} src="https://avatars.githubusercontent.com/u/115730703" alt="sorry this the only picture i found looking professional hahha."/>
+    <p>Hi! I'm Christian loic ( Chris ) a developer and designer .</p>
+    <p>I code a lot of stuff and i am constantly learning new skills <span aria-hidden="true">💻</span> for people <span aria-hidden="true">👩‍👩‍👦‍👦</span> and particularly intelligent dogs <span aria-hidden="true">🧠🐶</span>.</p>
+    <p><span aria-hidden="true">🌇 </span>Montrealer, with a passion for sciences, technologies, art, and growing skills that will help you achieve your goals </p>
   </Layout>
 )
 

@@ -18,8 +18,10 @@ const pageStyles = {
 const AboutPage = () => {
 
     return (
-        <Layout pageTitle="About Page">
+        <Layout pageTitle="About ">
             <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+           
+            <p> here , i Will let you know a lit more about me , my motivations , my goals and hobbies . this is a portal in my life</p>
       </Layout>
     )
 }

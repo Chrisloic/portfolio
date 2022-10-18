@@ -10,7 +10,7 @@ import Layout from "../components/layout"
 //   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 // }
 const headshot = {
-  borderRadius: 50 ,
+  borderRadius: 100 ,
   maxWidth: "40%" ,
   marginBottom: 40 ,
 }
@@ -175,9 +175,22 @@ const IndexPage = () => {
 return (
   <Layout pageTitle="Chris">
     <img style={headshot} src="https://avatars.githubusercontent.com/u/115730703" alt="sorry this the only picture i found looking professional hahha."/>
-    <p>Hi! I'm Christian loic ( Chris ) a developer and designer .</p>
-    <p>I code a lot of stuff and i am constantly learning new skills <span aria-hidden="true">💻</span> for people <span aria-hidden="true">👩‍👩‍👦‍👦</span> and particularly intelligent dogs <span aria-hidden="true">🧠🐶</span>.</p>
-    <p><span aria-hidden="true">🌇 </span>Montrealer, with a passion for sciences, technologies, art, and growing skills that will help you achieve your goals </p>
+    <p>Hi! I'm Christian ( Chris ) .</p>
+      
+    <p> I recently graduated in computer science, thus I may be considered a developer.</p>
+
+    <p>Cloud, Data, Power Platform, SharePoint, and DB are among the topics that have piqued my interest.</p>
+
+    <p>I'd want to introduce myself to you here:</p>
+
+    <p>I enjoy coding and learning new technologies.</p>
+
+    <p>I'm painting some artworks that you might not understand.</p>
+
+    <p>I have a wide range of literary tastes.</p>
+
+    <p>And I make playlists that I may share with you.</p>
+        
   </Layout>
 )
 

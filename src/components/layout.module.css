@@ -5,10 +5,9 @@
   margin-top: 12vh;
   margin-bottom: 15vh;
   max-width: 60vw;
-  font-family: mokoko, serif;
- /* background-color: fade( #020201, 50%);*/
-    background-size: cover;
-    background-color: #C09D2E;
+  font-family: mokoko, bold;
+  background-size: cover;
+  background-color: #C09D2E;
 
   
   color: #363537;
@@ -46,7 +45,8 @@ h3 {
   .nav-links {
     display: flex;
     list-style: none;
-    padding-left: 0;
+    align-content: center;
+    align-items: center;
     
 font-family: bebas-neue, sans-serif;
 

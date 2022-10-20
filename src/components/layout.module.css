@@ -61,8 +61,10 @@ html{
    /*background: url(../images/texture.jpg) no-repeat center center fixed;
     background-size: cover;*/
 
-    background: url(../images/mesh-gradient.png) no-repeat center center fixed;
+background-color: #C09D2E;
 
+    /*background: url(../images/mesh-gradient.png) no-repeat center center fixed;
+*/
     }
     
     section {

@@ -60,8 +60,6 @@ font-family: bebas-neue, sans-serif;
 html{
    /*background: url(../images/texture.jpg) no-repeat center center fixed;
     background-size: cover;*/
-
-   
 background-color: #C09D2E;
 
 /*background: url(../images/mesh-gradient.png) no-repeat center center fixed;
@@ -83,7 +81,9 @@ section p:first-of-type {
   margin-top: 1rem;
 } 
 
-    }
+    /*background: url(../images/mesh-gradient.png) no-repeat center center fixed;
+*/
+    
     
     section {
       margin-bottom: 65px;

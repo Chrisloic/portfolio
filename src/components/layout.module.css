@@ -79,4 +79,10 @@ html{
   
       margin-top: 1rem;
     } 
-    
+    .site-title {
+      font-family: mokoko, bold;
+      font-size: 3rem;
+      color: #363537;
+      font-weight: 700;
+      margin: 3rem 0;
+    }

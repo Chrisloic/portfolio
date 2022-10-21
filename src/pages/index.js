@@ -1,8 +1,8 @@
 import * as React from "react"
 //import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Seo from '../components/seo'
 
-import image from "../images/loulou.jpeg"
 // import { StaticImage } from 'gatsby-plugin-image'
 //import headshot from "../components/layout.module.css'"
 
@@ -210,4 +210,4 @@ return (
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title="Home Page" />

@@ -2,6 +2,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
+
 
 const PortfolioPage = () => {
 
@@ -14,6 +16,6 @@ const PortfolioPage = () => {
     )
 }
 
-export const Head = () => <title>Portfolio</title>
 
+export const Head = () => <Seo title="Portfolio" />
 export default PortfolioPage

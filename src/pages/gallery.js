@@ -1,6 +1,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
+
 
 const GalleryPage = () => {
 
@@ -13,6 +15,6 @@ const GalleryPage = () => {
     )
 }
 
-export const Head = () => <title>Gallery</title>
 
+export const Head = () => <Seo title="Gallery" />
 export default GalleryPage

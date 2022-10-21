@@ -61,7 +61,27 @@ html{
    /*background: url(../images/texture.jpg) no-repeat center center fixed;
     background-size: cover;*/
 
-    background: url(../images/mesh-gradient.png) no-repeat center center fixed;
+   
+background-color: #C09D2E;
+
+/*background: url(../images/mesh-gradient.png) no-repeat center center fixed;
+*/
+}
+
+section {
+  margin-bottom: 65px;
+}
+
+section p {
+  line-height: 1.75;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+section p:first-of-type {
+
+  margin-top: 1rem;
+} 
 
     }
     
